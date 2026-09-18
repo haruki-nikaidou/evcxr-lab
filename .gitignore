@@ -19,3 +19,12 @@ target
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+
+# Nix build results and direnv cache
+result
+result-*
+.direnv/
+
+# Jupyter config/state/sockets (kept in-repo by the dev shell)
+.jupyter/
+.ipynb_checkpoints/
